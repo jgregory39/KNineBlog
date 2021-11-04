@@ -1,0 +1,61 @@
+/*I pledge my honor that I have abided by the Stevens Honor System"*/
+
+body {
+	background: url('../assets/jack.jpg') no-repeat;
+	height: 50%;
+	background-size:cover;
+}
+
+@media only screen and (max-width:480px){
+	nav a{
+		font-size: 1;
+		color: red;
+	}
+	
+	nav img{
+		max-height:75px;
+	}
+	
+	nav form, #log-button{
+		position:relative;
+		bottom:75px;
+		float:right;
+		padding-right: 5px;
+		font-size: 1em;
+	}
+	}
+@media only screen and (min-width:480px){
+	nav a{
+		font-size: 1.5em;
+		color: red;
+	}
+	
+	nav img{
+		max-height:100px;
+	}
+	
+	nav form, #log-button{
+		float:right;
+		padding-right: 5px;
+		font-size: 1.25em;
+	}
+	}
+h1 {
+	text-align:center;	
+}
+
+p {
+	text-align:center;
+}
+
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	

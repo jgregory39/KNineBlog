@@ -1,0 +1,97 @@
+/*I pledge my honor that I have abided by the Stevens Honor system*/
+* {
+box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+font-family: Arial;
+padding: 20px;
+background-image: linear-gradient(to bottom Right, #ffbb1d, #fff41d, #ff831d);
+}
+
+/* Header/Blog Title */
+.header {
+padding: 20px;
+font-size: 2.5vw;
+text-align: center;
+background-image: linear-gradient(to bottom Right, #cca3ff, #e8ddf0, #cca3ff);
+border-radius: 25px;
+width: 100%;
+max-width: 800px;
+height: auto;
+}
+
+/* Left column */
+.leftcolumn {
+float: left;
+width: 65%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 35%;
+padding-left: 20px;
+}
+
+/* Positions the first image */
+.img1 {
+padding: 20px;
+height: 500px;
+width: 100%;
+max-width: 500px;
+height: auto;
+object-fit: contain;
+margin: auto;
+display: block;
+border-spacing: inherit;
+border-radius: 25px;
+}
+
+/* Positions the second image */
+.img2 {
+padding: 20px;
+height: 580px;
+width: 100%;
+max-width: 580px;
+height: auto;
+object-fit: contain;
+margin: auto;
+display: block;
+border-spacing: inherit;
+border-radius: 25px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 25px;
+width: 100%;
+max-width: 800px;
+height: auto;
+}
+/* Effects for the twitter feed in the right column*/
+.twitterfeed {
+padding-left: 20px;
+padding-top: 20px;
+padding-right: 20px;
+width: 100%;
+max-width: 400px;
+height: auto;
+}
+/* Formats what the page should look like after the colums end */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer - Bottom most part */
+.footer {
+padding: 20px;
+text-align: center;
+margin: auto;
+}

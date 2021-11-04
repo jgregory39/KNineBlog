@@ -3,14 +3,21 @@
 <html>
 <head>
 	<title>KNineBlog-Discussions</title>
+	<link rel="stylesheet" href="css/banner.css"/>
+	<link rel="stylesheet" type="text/css" href="css/discussionstyle.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<nav>
-		<a href="./index.html">Home</a>
-		<a href="./login.html">Login</a>
-		<a href="./search.html">Search</a>
+	<nav> 
+		<a href="./index.html" id="home-link"><img src="./assets/KNineLogo.png" alt="Home" id="logo"></a>
 		<a href="./blog.html">Blog</a>
-		<a href="./outside.html">Useful Links</a>
+		<a href="./discussion.html">Discussions</a>
+		<a href="./outside.html">Helpful Links</a>
+		<form action="./search.html" method="get">
+			<label for="search">Search:</label>
+			<input type="text" id="search" name = "search-term">
+		</form>
+		<a href="./login.html" id="log-button">Login</a>
 	</nav>
 	<h1>Start a Discussion!</h1>
 

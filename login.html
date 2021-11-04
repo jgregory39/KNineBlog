@@ -3,28 +3,33 @@
 <html>
 <head>
 	<title>Login Page</title>
-	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/loginstyle.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<nav>
-		<a href="./index.html">Home</a>
-		<a href="./login.html">Login</a>
-		<a href="./search.html">Search</a>
+		<a href="./index.html" id="home-link"><img src="./assets/KNineLogo.png" alt="Home" id="logo"></a>
 		<a href="./blog.html">Blog</a>
-		<a href="./outside.html">Useful Links</a>
-	</nav>
-	<div class="login-page">
-		<h1>Login Page</h1>
-		<form action="#" method="post">
-			<p>User Name</p>
-			<input type="text" name="user" placeholder="User Name">
-			<p>Password</p>
-			<input type="password" name="password" placeholder="Password"><br><br>
-			<input type="submit">
+		<a href="./discussion.html">Discussions</a>
+		<a href="./outside.html">Helpful Links</a>
+		<form action="./search.html" method="get">
+			<label for="search">Search:</label>
+			<input type="text" id="search" name = "search-term">
 		</form>
+		<a href="./login.html" id="log-button">Login</a>
+	</nav>
+	<div>
+		<h1>Login Page</h1>
+		
+			<p>User Name</p>
+			<textarea>Username</textarea>
+			<p>Password</p>
+			<textarea>Password</textarea>
+			<button>Login</button>
+		<p> Forgot Password? </p>
+		<p> Create a New Account </p>
+
 	</div>
 
-	<p> Forgot Password? </p>
-	<p> Create a New Account </p>
 </body>
 </html>

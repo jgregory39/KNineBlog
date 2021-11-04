@@ -1,0 +1,68 @@
+/*I pledge my honor that I have abided by the Stevens Honor System*/
+
+@media only screen and (max-device-width:430px){
+#links{
+  text-align: center;
+  font-size: 2em;
+}
+figcaption,h4,h3,h2{
+  text-align:center;
+  font-weight: bold;
+}
+p{
+  text-align:left;
+}
+body{
+  background-image: url(OIP.jpg)
+}
+#hearts{
+  background-image: url("../assets/heart-background.jpg");
+  text-align: center;
+  max-width:auto;
+  height: auto;
+  color: brown;
+}
+}
+
+@media only screen and (max-device-width: 900px) and (min-device-width:430px){
+#links{
+  text-align: center;
+  font-size: 1.15em;
+}
+figcaption,h4,h3,h2{
+  text-align:center;
+}
+p{
+  text-align:left;
+}
+body{
+  background-image: url(OIP.jpg)
+}
+#hearts{
+  background-image: url("../assets/heart-background.jpg");
+  text-align: center;
+  max-width:auto;
+  height: auto;
+  color: brown;
+}
+}
+
+@media only screen and (min-device-width:900px){
+  #links{
+  text-align: center;
+}
+figcaption,p,h4,h3,h2{
+  text-align:center;
+  font-family: Copperplate,fantasy;
+}
+body{
+  background-image: url(OIP.jpg)
+}
+#hearts{
+  background-image: url("../assets/heart-background.jpg");
+  text-align: center;
+  max-width:auto;
+  height: auto;
+  color: brown;
+}
+}
