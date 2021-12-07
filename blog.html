@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <!---I pledge my honor that I have abided by the Stevens Honor System.-->
 <html>
+<script src="blogJS.js"></script>
 <head>
   <title>KNineBlog</title>
-  <link rel="stylesheet" href="css/blogstyles.css"/>
-  <link rel="stylesheet" href="css/banner.css"/>
+  <link rel="stylesheet" href="blogstyles.css"/>
+
+
+  <!--<link rel="stylesheet" href="css/banner.css"/> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+
 <body>
+  </head>
+
 <nav>
+
+
     <a href="./index.html" id="home-link"><img src="./assets/KNineLogo.png" alt="Home" id="logo"></a>
     <a href="./blog.html">Blog</a>
     <a href="./discussion.html">Discussions</a>
@@ -19,35 +26,52 @@
     </form>
     <a href="./login.html" id="log-button">Login</a>
   </nav>
-<div class="header">  
+
+<div class="header">
   <h2>KNINEBLOG</h2>
 </div>
 
-<div class="row">
   <div class="leftcolumn">
+    <div class="smallCard">
+      <p><strong>Make a post!</strong></p>
+      <label for="postTitle">Title</label><br>
+      <input type="text" id="postTitle"><br><br>
+
+      <label for="postUser">Username</label><br>
+      <input type="text" id="postUser"><br><br>
+
+      <label for="postDate">Date</label><br>
+      <input type="text" id="postDate"><br><br>
+
+      <label for="postAddress">ImageAddress</label><br>
+      <input type="text" id="postAddress"><br><br>
+
+      <label for="postCaption">Caption</label><br>
+      <input type="text" id="postCaption"><br><br>
+      <button onclick="postClick()"><p>UPLOAD</p></button>
+    </div>
+    <div id="start">
     <div class="card">
       <h2>Day at the dog park.</h2>
       <h5>Post by DogLover12, 10/05/2021</h5>
-        <img class="img1" src="assets/dogpicture1.jpg" alt="picture of dog 1">
+        <img src="dogpicture1.jpg" alt="picture of dog 1">
         <p>My dog, Snowball is just taking a chill pill today at the dog park. Looks like he had enough play time with all the other dogs...</p>
       </div>
     <div class="card">
       <h2>New member of the family!</h2>
       <h5>Post by DiggityDog, 09/15/2021</h5>
-        <img class="img2" src="assets/dogpicture2.jpg" alt="picture of dog 2">
+        <img src="dogpicture2.jpg" alt="picture of dog 2">
       <p>Took a trip to the dog shelter today and found Bella. She's a Dachshund and we are happy to add her to the family.</p>
     </div>
+    </div>
   </div>
+
+
   <div class="rightcolumn">
     <div class="twitterfeed">
     <!-- put twitter feed here-->
-    <a class="twitter-timeline" data-theme="dark" data-chrome=“noscrollbar” height=800px width=400px href="https://twitter.com/iwannatreat1?ref_src=twsrc%5Etfw">Tweets by iwannatreat1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    </div>
+    <a class="twitter-timeline" data-theme="dark" data-tweet-limit="5" href="https://twitter.com/iwannatreat1?ref_src=twsrc%5Etfw">Tweets by iwannatreat1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-</div>
-
-<div class="footer">
 </div>
 
 </body>
