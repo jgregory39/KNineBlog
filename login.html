@@ -3,33 +3,32 @@
 <html>
 <head>
 	<title>Login Page</title>
-	<link rel="stylesheet" type="text/css" href="css/loginstyle.css"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="loginstyle.css"/>
+	<script defer src="loginscript.js"></script>
 </head>
 <body>
+	
 	<nav>
-		<a href="./index.html" id="home-link"><img src="./assets/KNineLogo.png" alt="Home" id="logo"></a>
+		<a href="./index.html">Home</a>
+		<a href="./login.html">Login</a>
+		<a href="./search.html">Search</a>
 		<a href="./blog.html">Blog</a>
-		<a href="./discussion.html">Discussions</a>
-		<a href="./outside.html">Helpful Links</a>
-		<form action="./search.html" method="get">
-			<label for="search">Search:</label>
-			<input type="text" id="search" name = "search-term">
-		</form>
-		<a href="./login.html" id="log-button">Login</a>
+		<a href="./outside.html">Useful Links</a>
 	</nav>
-	<div>
-		<h1>Login Page</h1>
-		
-			<p>User Name</p>
-			<textarea>Username</textarea>
-			<p>Password</p>
-			<textarea>Password</textarea>
-			<button>Login</button>
-		<p> Forgot Password? </p>
-		<p> Create a New Account </p>
-
-	</div>
-
+	<h1>Login Page</h1>
+	<div id="error"></div>
+		<form  id="form" action="/" method="get" align=center>
+			<p>
+			<div>
+				<label for="name">Username</label>
+				<input id="name" name="name" type="text" required>
+			</div>
+			<div>
+				<label for="Password">Password</label>
+				<input id="password" name="password" type="password">
+			</div>
+			<button type="submit">Submit</button>
+		</p>
+		</form>
 </body>
 </html>
