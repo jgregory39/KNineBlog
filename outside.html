@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<!---I pledge my honor that I have abided by the Stevens Honor System.-->
 <html>
   <head>
     <meta charset="utf-8">
-    <title>KNineBlog-Helpful Links</title>
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/outsidestyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <nav>
-        <a href="./index.html" id="home-link"><img src="./assets/KNineLogo.png" alt="Home" id="logo"></a>
-        <a href="./blog.html">Blog</a>
-        <a href="./discussion.html">Discussions</a>
-        <a href="./outside.html">Helpful Links</a>
-        <form action="./search.html" method="get">
-            <label for="search">Search:</label>
-            <input type="text" id="search" name = "search-term">
-        </form>
-        <a href="./login.html" id="log-button">Login</a>
-      </nav>
-    <div class = "title">
+    <div class="title">
       <h2> Great Additional Resources</h2>
     </div>
     <div class="resources">
-      <ul>
-        <li><a href="https://www.petco.com/shop/en/petcostore">Great place to buy products for your companion!</a></li>
-        <li><a href="http://www.vetstreet.com/">Find a vet near you when your pet needs a checkup!</a></li>
-        <li><a href="https://www.petfinder.com/">Visit here if you are looking to adopt!</a></li>
-      </ul>
+      <h3>Thinking About Getting a Dog?</h3>
+      <a href="https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/#:~:text=Recent%20research%20shows%20that%20owning%20a%20dog%20is,for%2010%20science-backed%20benefits%20of%20having%20a%20dog.">Why You Should Get a Dog<br></a>
+      <a href="https://livelongandpawspurr.com/blog/why-not-to-get-a-dog/">When You Should Not Get a Dog<br></a>
+      <a href="https://www.lawyers.com/legal-info/criminal/animal-law/what-you-need-to-know-when-adopting-a-pet.html">What to Know Before Adopting<br></a>
+      <a href="https://www.akc.org/expert-advice/training/service-dog-training-101/">What You Should Know About Service Dogs<br></a>
+      <a href="https://www.petfinder.com/">Visit Here to Adopt!<br></a>
+
+      <h3>Already Have a Dog?</h3>
+      <a href="https://www.petco.com/shop/en/petcostore">Treat Your Dog Here!<br></a>
+      <a href="http://www.vetstreet.com/">Find a Vet Near You<br></a>
+      <a href="https://www.humanesociety.org/resources/coping-death-your-pet">Dealing With Loss of Your Pet<br></a>
     </div>
+    <p>If any of this was helpful, please click the like button!</p>
+    <img src="likebutton.jpg" alt="Like Button" id="likebutton" onclick="increaseLikes()">
+    <button id="increase" onclick="increaseLikes()" value="0">0</button>
+    <script src="outlinks.js"></script>
   </body>
 </html>
