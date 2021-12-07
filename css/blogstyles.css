@@ -40,9 +40,9 @@ padding-left: 20px;
 }
 
 /* Positions the first image */
-img {
+.card img {
 padding: 20px;
-height: auto%;
+height: auto;
 max-height: 500px;
 width: 100%;
 max-width: 1000px;

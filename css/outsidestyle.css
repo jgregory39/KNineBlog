@@ -25,34 +25,14 @@
         background-position-x: center;
         background-size:150%;
     }
+    #likebutton{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+    }
 }
 @media only screen and (min-width:480px) and (max-width:769px){
-    .title {
-        text-align: center;
-        font-size:1.75em;
-        padding-top: 200px;
-        color:goldenrod;
-    }
-
-    ul{
-        text-align:center;
-        padding-right:10px;
-        list-style-position:inside;
-        list-style-type: square;
-    }
-
-    li{
-        font-size: 1.25em;
-        padding-bottom: 10px;
-    }
-    body{
-
-        background: url("../assets/clipboard.jpg") no-repeat;
-        background-position-x: center;
-        background-size:auto;
-    }
-}
-@media only screen and (min-width:769px){
     .title {
         text-align: center;
         font-size:1.75em;
@@ -82,5 +62,39 @@
         height: 20px;
         position: relative;
         top: 5px;
+    }
 }
+@media only screen and (min-width:769px){
+    .title {
+        text-align: center;
+        font-size:1.75em;
+        padding-top: 200px;
+        color:goldenrod;
+    }
+    .resources, .like{
+        text-align:center;
+    }
+    ul{
+        text-align:center;
+        padding-right:10px;
+        list-style-position:inside;
+        list-style-type: square;
+    }
+
+    li{
+        font-size: 1.25em;
+        padding-bottom: 10px;
+    }
+    body{
+
+        background: url("../assets/clipboard.jpg") no-repeat;
+        background-position-x: center;
+        background-size:auto;
+    }
+    #likebutton{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+    }
 }

@@ -1,3 +1,4 @@
+/*I pledge my honor that I have abided by the Stevens Honor System*/
 const name = document.getElementById('name')
 const password = document.getElementById('password')
 const form = document.getElementById('form')
