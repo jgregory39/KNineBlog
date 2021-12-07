@@ -94,3 +94,8 @@ padding: 20px;
 text-align: center;
 margin: auto;
 }
+.logoheading {
+  height: 10vw;
+  width: 10vw;
+  float: left;
+}
