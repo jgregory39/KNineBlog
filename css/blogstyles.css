@@ -7,54 +7,45 @@ box-sizing: border-box;
 body {
 font-family: Arial;
 padding: 20px;
-background-image: linear-gradient(to bottom Right, #ffbb1d, #fff41d, #ff831d);
+background-image: linear-gradient(to bottom Right, #ffbb1d, #fff41d, red);
 }
 
 /* Header/Blog Title */
 .header {
+  margin: auto;
+  align-items: center;
 padding: 20px;
 font-size: 2.5vw;
 text-align: center;
 background-image: linear-gradient(to bottom Right, #cca3ff, #e8ddf0, #cca3ff);
 border-radius: 25px;
 width: 100%;
-max-width: 800px;
+max-width: 1600px;
 height: auto;
 }
 
 /* Left column */
 .leftcolumn {
+  padding-top: 20px;
 float: left;
-width: 65%;
+width: 80%;
 }
 
 /* Right column */
 .rightcolumn {
+  padding-top: 20px;
 float: left;
-width: 35%;
+width: 20%;
 padding-left: 20px;
 }
 
 /* Positions the first image */
-.img1 {
+img {
 padding: 20px;
-height: 500px;
+height: auto%;
+max-height: 500px;
 width: 100%;
-max-width: 500px;
-height: auto;
-object-fit: contain;
-margin: auto;
-display: block;
-border-spacing: inherit;
-border-radius: 25px;
-}
-
-/* Positions the second image */
-.img2 {
-padding: 20px;
-height: 580px;
-width: 100%;
-max-width: 580px;
+max-width: 1000px;
 height: auto;
 object-fit: contain;
 margin: auto;
@@ -70,23 +61,31 @@ padding: 20px;
 margin-top: 20px;
 border-radius: 25px;
 width: 100%;
-max-width: 800px;
+max-width: 1200px;
 height: auto;
 }
+
+
 /* Effects for the twitter feed in the right column*/
-.twitterfeed {
-padding-left: 20px;
-padding-top: 20px;
-padding-right: 20px;
-width: 100%;
-max-width: 400px;
-height: auto;
+.twitter-timeline {
+  width: 100%;
 }
 /* Formats what the page should look like after the colums end */
 .row:after {
 content: "";
 display: table;
 clear: both;
+}
+
+.smallCard{
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  border-spacing: 20px;
 }
 
 /* Footer - Bottom most part */
